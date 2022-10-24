@@ -1,0 +1,33 @@
+.transactionHistory {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.tableHead {
+    background-color: rgb(85, 85, 90);
+    color: white;
+}
+
+.tableHeadItem {
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.tableLine {
+    background-color: rgb(147, 255, 255);
+}
+
+.tableLine:nth-child(even) {
+    background-color: rgb(60, 247, 247);
+}
+
+.tableItem {
+    padding: 5px;
+    text-align: center;
+}
+
+.tableItem:first-child {
+    text-transform: capitalize;
+}
